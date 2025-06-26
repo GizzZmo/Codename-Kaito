@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""
+Kaito001 - Multi Hacking Tool
+"""
+
 import requests
 import time
 import sys
@@ -6,9 +11,15 @@ import string
 import socket
 import threading
 import concurrent.futures
+import validators
 
 def check_vulnerabilities(target_url):
     """Check for common vulnerabilities in a web application"""
+    
+    # Validate URL before processing
+    if not validators.url(target_url):
+        print(f"[!] Invalid URL: {target_url}")
+        return False
     
     # List of common vulnerabilities
     vulnerabilities = [
@@ -107,6 +118,11 @@ def main():
         sys.exit(1)
     
     target_url = sys.argv[1]
+    
+    # Validate URL before processing
+    if not validators.url(target_url):
+        print(f"[!] Invalid URL: {target_url}")
+        sys.exit(1)
     
     # Check for vulnerabilities
     vulnerable = check_vulnerabilities(target_url)
