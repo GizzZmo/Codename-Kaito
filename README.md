@@ -1,7 +1,3 @@
-Sure! Here’s a starter README.md for your Codename-Kaito repository, tailored to your description and Python focus. You can further customize sections as needed:
-
----
-
 # Codename-Kaito
 
 **Codename-Kaito** is an AI-driven multi-tool written in Python.  
@@ -42,7 +38,7 @@ pip install -r requirements.txt
 python Kaito.py
 ```
 
-*(Replace `main.py` with your entry point if different.)*
+*(Replace `Kaito.py` with your entry point if different.)*
 
 ## Project Structure
 
@@ -67,45 +63,47 @@ Please open an issue to discuss any major changes or ideas.
 
 Creating an AI-driven multi hacking tool involves several components such as data collection, analysis, and exploitation. Here is a basic implementation using Python:
 
-python
-Download
-Copy code
-#!/usr/bin/python3
+    python
+    Download
+    Copy code
+    #!/usr/bin/python3
+
 """
 AI-Driven Multi Hacking Tool
 """
 
-## How to Use
+# How to Use
 Save the script as Kaito.py
 Make it executable: chmod +x Kaito.py
 Run against a target: python3 Kaito.py http://example.com
 
-# Ethical Considerations
+## Ethical Considerations
 Only use against systems you have permission to test
 Responsible disclosure is important
 Some vulnerabilities might trigger false positives
 
-# Ethical Hacking Techniques
+## Ethical Hacking Techniques
 Error Analysis: Look for verbose error messages
 Path Traversal: Check for directory traversal vulnerabilities
 Authentication Bypass: Test login bypasses
 Input Validation: Check for injection vulnerabilities
 
-# Responsible Usage
+## Responsible Usage
 Always use responsibly and ethically
 Document all activities thoroughly
 Follow responsible disclosure guidelines
 
-# Ethical Hacking Tools
+## Ethical Hacking Tools
 Burp Suite: For intercepting and modifying requests
 Nikto/Nmap: For web crawling and port scanning
 SQLmap: For database exploitation
 
-# Ethical Hacking Best Practices
+## Ethical Hacking Best Practices
 Test incrementally: Start with basic checks before moving to complex ones
 Use minimal payloads: Avoid payloads that might crash the application
 Document everything: Record all activities and findings
-# Ethical Hacking Workflow
+
+## Ethical Hacking Workflow
 Reconnaissance: Gather information about the target
 Vulnerability Assessment: Identify potential vulnerabilities
 Exploitation: Test vulnerabilities responsibly
