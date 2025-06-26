@@ -35,10 +35,10 @@ pip install -r requirements.txt
 ### Usage
 
 ```bash
-python Kaito.py
+python kaito.py
 ```
 
-*(Replace `Kaito.py` with your entry point if different.)*
+*(Replace `kaito.py` with your entry point if different.)*
 
 ## Project Structure
 
@@ -73,9 +73,9 @@ AI-Driven Multi Hacking Tool
 """
 
 # How to Use
-Save the script as Kaito.py
-Make it executable: chmod +x Kaito.py
-Run against a target: python3 Kaito.py http://example.com
+Save the script as kaito.py
+Make it executable: chmod +x kaito.py
+Run against a target: python3 kaito.py http://example.com
 
 ## Ethical Considerations
 Only use against systems you have permission to test
