@@ -1,8 +1,3 @@
-#!/usr/bin/python3
-"""
-Kaito001 - Multi Hacking Tool
-"""
-
 import requests
 import time
 import sys
